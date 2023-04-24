@@ -1,0 +1,39 @@
+* {
+    font-family: "Outfit";
+    margin: 0;
+    padding: 0;
+}
+
+.gm-style-cc {
+    display: none;
+}
+
+a[href^="http://maps.google.com/maps"] {
+    display: none !important
+}
+
+a[href^="https://maps.google.com/maps"] {
+    display: none !important
+}
+
+.gmnoprint a,
+.gmnoprint span,
+.gm-style-cc {
+    display: none;
+}
+
+.gmnoprint div {
+    background: none !important;
+}
+
+
+
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.uppercard {
+    background: linear-gradient(180deg, #2B4191 0%, #061751 100%);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
